@@ -1,0 +1,179 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model weights and large files (ignore weights folder)
+weights/
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+
+# Output directories
+output/
+outputs/
+results/
+temp/
+tmp/
+
+# Dataset directories (usually large)
+dataset*/
+data/
+datasets/
+
+# Generated files
+*.drawio
+*.pptx
+result.*
+demo_result.*
+inference_result.*
+
+# Log files
+*.log
+logs/
+*.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Cache directories
+.cache/
+*.cache
+
+# Test files (but keep test.jpg as example)
+test_*.jpg
+test_*.png
+demo_*.jpg
+demo_*.png
+
+# Keep test.jpg as sample
+!test.jpg
+!ppt/test.jpg
+!drawio/test.jpg
+
+# Ignore large model files but keep small config files
+*.bin
+*.safetensors
+
+# Ignore compiled extensions
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+*.egg-info/
+dist/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
